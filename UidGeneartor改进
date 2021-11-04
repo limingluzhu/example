@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T09:40:59.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="JSWzfZnG7s7D0MmcjIdY" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T12:05:28.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="Uf6IoPLd_rDYYB1Ku44R" version="15.6.8" type="github">
   <diagram id="9dIGAaWsCclmgEfR6UVy" name="第 1 页">
-    <mxGraphModel dx="1248" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1248" dy="713" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,22 +33,55 @@
           <mxGeometry x="330" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_u2AX8JHl1jyfxX3qHYP-10" value="开始ID生成流程" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="496" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_u2AX8JHl1jyfxX3qHYP-14" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_u2AX8JHl1jyfxX3qHYP-12" target="_u2AX8JHl1jyfxX3qHYP-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="_u2AX8JHl1jyfxX3qHYP-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_u2AX8JHl1jyfxX3qHYP-12" target="_u2AX8JHl1jyfxX3qHYP-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_u2AX8JHl1jyfxX3qHYP-20" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_u2AX8JHl1jyfxX3qHYP-19">
+          <mxGeometry x="-0.2407" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_u2AX8JHl1jyfxX3qHYP-12" value="本地&lt;span&gt;是否可以取到未来借用时间&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="320" width="120" height="80" as="geometry" />
+          <mxGeometry x="170" y="300" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_u2AX8JHl1jyfxX3qHYP-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_u2AX8JHl1jyfxX3qHYP-13" target="_u2AX8JHl1jyfxX3qHYP-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_u2AX8JHl1jyfxX3qHYP-13" value="未来借用时间作为当前时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="407" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_u2AX8JHl1jyfxX3qHYP-15" value="开始ID生成流程" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="585" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="502" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_u2AX8JHl1jyfxX3qHYP-23" value="等待" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_u2AX8JHl1jyfxX3qHYP-21" target="_u2AX8JHl1jyfxX3qHYP-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_u2AX8JHl1jyfxX3qHYP-27" value="更换" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_u2AX8JHl1jyfxX3qHYP-21" target="_u2AX8JHl1jyfxX3qHYP-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_u2AX8JHl1jyfxX3qHYP-21" value="等待还是更换workId" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_u2AX8JHl1jyfxX3qHYP-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_u2AX8JHl1jyfxX3qHYP-22" target="_u2AX8JHl1jyfxX3qHYP-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_u2AX8JHl1jyfxX3qHYP-22" value="等待，直到当前时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="407" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_u2AX8JHl1jyfxX3qHYP-24" value="开始ID生成流程" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="502" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_u2AX8JHl1jyfxX3qHYP-28" value="启动" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="76" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
